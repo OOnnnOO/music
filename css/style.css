@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.music-box {
+    width: 600px;
+    height: 200px;
+    background-color: #e6e6e6;
+    margin: 50px auto;
+    position: relative;
+    padding: 20px;
+}
+
+.music-title {
+    font-size: 26px;
+}
+
+.music-artist {
+    text-align: left;
+    height: 40px;
+}
+
+.music-cover {
+    position: absolute;
+    right: 10px;
+    top: 25px;
+}
+
+.music-cover img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.music-progress {
+    width: 400px;
+}
+
+.progress-bar span {
+    margin: 10px;
+}
+
+.control {
+    margin: 10px 0;
+}
+
+.control span {
+    margin: 0 10px;
+}

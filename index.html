@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <title>音乐播放</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<div class="music-box" id="music-box">
+    <div>
+        <div class="music-title">title</div>
+        <div class="music-artist">artist</div>
+    </div>
+    <div>
+        <div class="progress-bar">
+            <span id="leftTime">00:00</span>
+            <span id="volume">音量</span>
+            <span>歌词</span>
+            <span>下载</span>
+            <span>分享</span>
+        </div>
+        <div>
+            <progress class="music-progress" max="100" value="0">0%</progress>
+        </div>
+    </div>
+    <div class="control">
+        <span class="prev">上一曲</span>
+        <span class="playback">暂停</span>
+        <span class="next">下一曲</span>
+    </div>
+    <div class="music-cover">
+        <img src="img/cover.jpg" alt="">
+    </div>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
