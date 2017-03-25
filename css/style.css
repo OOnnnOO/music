@@ -6,11 +6,15 @@
 
 .music-box {
     width: 600px;
-    height: 200px;
     background-color: #e6e6e6;
     margin: 50px auto;
     position: relative;
     padding: 20px;
+}
+
+#player {
+    width: 400px;
+    height: 160px;
 }
 
 .music-title {
@@ -38,8 +42,12 @@
     width: 400px;
 }
 
-.progress-bar span {
+.progress-time {
     margin: 10px;
+}
+
+.volume {
+    float: right;
 }
 
 .control {
@@ -48,4 +56,22 @@
 
 .control span {
     margin: 0 10px;
+}
+
+
+
+#playlist {
+    margin: 10px 0;
+    background: #fff;
+    list-style: none;
+    padding: 10px;
+}
+
+#playlist li {
+    padding: 2px 0;
+    width: 100%;
+}
+
+#playlist li.active,#playlist li:hover {
+    background: #e6e6e6;
 }
