@@ -40,7 +40,7 @@ function loadMusic(song) {
     audio.addEventListener('ended', ended, false);
     audio.addEventListener('timeupdate', updateProgress, false);
     audio.addEventListener('canplay', play, false);
-    $('#downloadLink').attr('href', "./music/" + item['filename']);
+    $('#downloadLink').attr('href', "https://dn-blogme.qbox.me/music/" + item['filename']);
     audio.volume = volume;
     $('#volume').val(volume);
     $('#playlist').children().removeClass('active').eq(song).addClass('active');
